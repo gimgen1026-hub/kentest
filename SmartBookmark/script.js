@@ -5,3 +5,5 @@ javascript:void(inputStr=prompt("Article/Case Numbers (multiple allowed):","").t
 ## Issue
 
 javascript:void(inputStr=prompt("Issue Number (multiple allowed):","").trim(),numMatches=inputStr.match(/\b\d{5,9}\b/g)||[],uniqueNums=[...new Set(numMatches)],uniqueNums.forEach(num=>{num!=="00000"&&window.open("https://codebeamer.com/cb/issue/"+encodeURIComponent(num),'_blank')}),0);
+
+// Modified on 3/18/2026
